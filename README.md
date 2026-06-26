@@ -1,4 +1,4 @@
-# Link Prediction for Multi-Omic Cancer Subtype Classification
+# HOBIT: Heterogeneous Bayesian GraphSAGE using Optimal Transport for Uncertainty Aware Multi-omic Cancer Biomarker Discovery
 
 This repository contains the source code for a heterogeneous graph-based pipeline applied to two cancer datasets: **BRCA** (breast cancer) and **KIPAN** (pan-kidney renal cell carcinoma). The pipeline integrates multi-omic data (mRNA expression, DNA methylation, miRNA) with biological interaction networks to perform cancer subtype classification with uncertainty quantification.
 
