@@ -1,0 +1,7 @@
+{
+  "n_high_importance": 203,
+  "n_ora_significant_fdr5": 11,
+  "n_subtype_specific_fdr5": 180,
+  "CGC_recovery_rate": 0.1923,
+  "n_hub_genes_high": 20
+}

@@ -1,0 +1,34 @@
+{
+  "dataset": "BRCA",
+  "total_nodes": 41084,
+  "node_counts": {
+    "mRNA": 20155,
+    "methylation": 20106,
+    "miRNA": 823
+  },
+  "total_edges": 827154,
+  "edge_counts": {
+    "PPI": 782376,
+    "miRNA_target": 6864,
+    "methylation_gene": 37914
+  },
+  "feature_dim": 431,
+  "num_samples": 430,
+  "pam50_distribution": {
+    "LumA": 229,
+    "LumB": 100,
+    "Basal": 71,
+    "Her2": 30
+  },
+  "num_classes": 4,
+  "avg_degree": 21.4022459118195,
+  "max_degree": 1397,
+  "min_degree": 1,
+  "nodes_with_edges": 38648,
+  "isolated_nodes": 2436,
+  "normalisation": {
+    "method": "zscore",
+    "split_on": "training_patients_only",
+    "primary_seed": 42
+  }
+}

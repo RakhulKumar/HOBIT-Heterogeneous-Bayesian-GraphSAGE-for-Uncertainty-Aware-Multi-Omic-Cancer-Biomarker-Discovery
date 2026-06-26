@@ -1,0 +1,126 @@
+{
+  "run_timestamp": "2026-06-02T08:09:20",
+  "dataset": "KIPAN",
+  "n_seeds": 5,
+  "stages": {
+    "1": {
+      "status": "OK",
+      "elapsed_s": 99.36767196655273
+    },
+    "2": {
+      "status": "OK",
+      "elapsed_s": 405.6784930229187
+    },
+    "3": {
+      "status": "OK",
+      "elapsed_s": 323.7612535953522
+    },
+    "4": {
+      "status": "OK",
+      "elapsed_s": 2.0858445167541504
+    }
+  },
+  "graph": {
+    "total_nodes": 41105,
+    "total_edges": 830634,
+    "num_samples": 523,
+    "avg_degree": 20.207614645420264,
+    "isolated_nodes": 2360,
+    "edge_counts": {
+      "ppi_bidirectional": 785800,
+      "mirna_target": 6894,
+      "meth_gene_bidirectional": 37940
+    },
+    "node_counts": {
+      "mRNA": 20190,
+      "methylation": 20116,
+      "miRNA": 799
+    },
+    "subtype_distribution": {
+      "KIRP": 274,
+      "KIRC": 183,
+      "KICH": 66
+    },
+    "_elapsed": 99.36767196655273
+  },
+  "link_prediction": {
+    "link_prediction": {
+      "test_auc": 0.9959857136366654,
+      "test_ap": 0.995216828732279,
+      "best_val_auc": 0.9960229988763992
+    },
+    "edges_added": 82148,
+    "network_density_increase_pct": 9.89,
+    "gmm_k": 4,
+    "gmm_validation": {
+      "cgc_in_data": 52,
+      "cgc_recovered": 10,
+      "cgc_recovery_rate": 0.1923,
+      "cgc_in_mrna": 52,
+      "cgc_recovered_mrna": 0,
+      "kipan_in_data": 307,
+      "kipan_recovered": 53,
+      "kipan_rate": 0.1726
+    },
+    "label_counts": {
+      "Low": 32623,
+      "Medium-Low": 6520,
+      "Medium-High": 1759,
+      "High": 203
+    },
+    "n_high_importance": 203,
+    "_elapsed": 405.6784930229187
+  },
+  "classification": {
+    "mean": {
+      "accuracy": 0.9518987341772153,
+      "balanced_acc": 0.9499651567944252,
+      "F1_macro": 0.9478162389449976,
+      "F1_weighted": 0.9518087924505402,
+      "precision": 0.948038777759708,
+      "recall": 0.9499651567944252,
+      "AUC_macro": 0.9855454623292268,
+      "AUC_weighted": 0.983778362024067,
+      "ECE": 0.057836601854879634,
+      "MCE": 0.5322326779365539,
+      "MI_mean": 0.04254829250276089,
+      "spearman_rho": 0.2568565111957694
+    },
+    "std": {
+      "accuracy": 0.032420882214849865,
+      "balanced_acc": 0.03581889065130648,
+      "F1_macro": 0.03835333800100198,
+      "F1_weighted": 0.032296170958185266,
+      "precision": 0.0400465036872143,
+      "recall": 0.03581889065130648,
+      "AUC_macro": 0.012510959604720488,
+      "AUC_weighted": 0.013289949969240229,
+      "ECE": 0.015875629779615118,
+      "MCE": 0.07993985399474163,
+      "MI_mean": 0.02607972651757046,
+      "spearman_rho": 0.015296772339968612
+    },
+    "ci95": {
+      "accuracy": 0.02841815623698395,
+      "balanced_acc": 0.031396641954981576,
+      "F1_macro": 0.0336181830062324,
+      "F1_weighted": 0.028308842000779055,
+      "precision": 0.035102308166276394,
+      "recall": 0.031396641954981576,
+      "AUC_macro": 0.010966339606844292,
+      "AUC_weighted": 0.011649154767126616,
+      "ECE": 0.013915603050153047,
+      "MCE": 0.07007037147631094,
+      "MI_mean": 0.022859888200533432,
+      "spearman_rho": 0.013408212133095268
+    }
+  },
+  "biomarker_validation": {
+    "n_high_importance": 203,
+    "n_ora_significant_fdr5": 11,
+    "n_subtype_specific_fdr5": 180,
+    "CGC_recovery_rate": 0.1923,
+    "n_hub_genes_high": 20,
+    "_elapsed": 2.0858445167541504
+  }
+}

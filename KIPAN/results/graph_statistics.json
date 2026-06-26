@@ -1,0 +1,22 @@
+{
+  "total_nodes": 41105,
+  "total_edges": 830634,
+  "num_samples": 523,
+  "avg_degree": 20.207614645420264,
+  "isolated_nodes": 2360,
+  "edge_counts": {
+    "ppi_bidirectional": 785800,
+    "mirna_target": 6894,
+    "meth_gene_bidirectional": 37940
+  },
+  "node_counts": {
+    "mRNA": 20190,
+    "methylation": 20116,
+    "miRNA": 799
+  },
+  "subtype_distribution": {
+    "KIRP": 274,
+    "KIRC": 183,
+    "KICH": 66
+  }
+}

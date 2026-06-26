@@ -1,0 +1,4 @@
+Class,Precision,Recall,F1,Support
+KIRC,0.8667,0.9286,0.8966,28
+KIRP,0.9744,0.9268,0.95,41
+KICH,0.9,0.9,0.9,10

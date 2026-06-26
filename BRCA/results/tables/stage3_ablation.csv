@@ -1,0 +1,5 @@
+Configuration,Accuracy,F1_macro,AUC_macro,ECE
+Full HOBIT,0.8462,0.8563,0.9692,0.1098
+w/o Optimal Transport,0.7538,0.7652,0.9506,0.1725
+w/o miRNA,0.8,0.8283,0.9618,0.1197
+mRNA only,0.8769,0.8802,0.9748,0.0843

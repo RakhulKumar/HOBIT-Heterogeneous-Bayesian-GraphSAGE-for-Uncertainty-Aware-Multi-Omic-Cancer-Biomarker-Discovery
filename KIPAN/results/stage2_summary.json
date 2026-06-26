@@ -1,0 +1,27 @@
+{
+  "link_prediction": {
+    "test_auc": 0.9959857136366654,
+    "test_ap": 0.995216828732279,
+    "best_val_auc": 0.9960229988763992
+  },
+  "edges_added": 82148,
+  "network_density_increase_pct": 9.89,
+  "gmm_k": 4,
+  "gmm_validation": {
+    "cgc_in_data": 52,
+    "cgc_recovered": 10,
+    "cgc_recovery_rate": 0.1923,
+    "cgc_in_mrna": 52,
+    "cgc_recovered_mrna": 0,
+    "kipan_in_data": 307,
+    "kipan_recovered": 53,
+    "kipan_rate": 0.1726
+  },
+  "label_counts": {
+    "Low": 32623,
+    "Medium-Low": 6520,
+    "Medium-High": 1759,
+    "High": 203
+  },
+  "n_high_importance": 203
+}

@@ -1,0 +1,21 @@
+Rank,Biomarker,Omic_Type,Importance_Score,GMM_Confidence,General_Cancer_Role,PAM50_Subtype,Key_Reference,KW_stat,KW_FDR,Subtype_Specific,Dominant_Subtype,Is_Hub_Gene,In_CGC,In_PAM50_Sig
+1,TP53,mRNA,1.0,1.0,Mutated in 80% Basal-like; guardian of genome,Basal,Cancer Genome Atlas Network 2012,1.42,0.7148,False,LumA,False,True,False
+2,RPS27A,mRNA,1.0,1.0,Ribosomal protein; ubiquitous expression — likely network hub artifact,N/A (hub),,66.033,0.0,True,Basal,True,False,False
+3,EGFR,mRNA,0.9999,1.0,Overexpressed in Basal-like triple-negative; EGFR-targeted therapy investigated,Basal,Bhargava et al. 2005,125.327,0.0,True,Basal,False,True,False
+4,CTNNB1,mRNA,0.9999,1.0,β-catenin; Wnt pathway; invasive Luminal phenotype,LumA,Khramtsov et al. 2010,18.515,0.0006,True,Basal,False,True,False
+5,UBA52,mRNA,0.9998,1.0,Ubiquitin-60S ribosomal; network hub gene,N/A (hub),,11.107,0.0143,True,Basal,False,False,False
+6,AKT1,mRNA,0.9998,1.0,PI3K/AKT survival signaling; E17K mutation in Luminal,LumA,Carpten et al. 2007,55.283,0.0,True,Her2,False,True,False
+7,SRC,mRNA,0.9997,1.0,Non-receptor tyrosine kinase; invasion; Basal-like signaling hub,Basal,Zhang et al. 2007,43.221,0.0,True,Basal,False,False,False
+8,ACTB,mRNA,0.9997,1.0,"Actin; housekeeping gene — high connectivity, not subtype-specific",N/A (hub),,48.851,0.0,True,Basal,True,False,False
+9,TNF,mRNA,0.9996,1.0,—,—,—,41.924,0.0,True,Basal,False,False,False
+10,FAU,mRNA,0.9996,1.0,—,—,—,12.218,0.0088,True,Basal,False,False,False
+11,RPS18,mRNA,0.9995,1.0,—,—,—,37.126,0.0,True,Basal,True,False,False
+12,IL6,mRNA,0.9995,1.0,—,—,—,33.367,0.0,True,Basal,False,False,False
+13,RPS11,mRNA,0.9994,1.0,—,—,—,14.695,0.003,True,Basal,False,False,False
+14,RPS9,mRNA,0.9994,1.0,—,—,—,36.768,0.0,True,LumA,False,False,False
+15,HSP90AA1,mRNA,0.9993,1.0,Chaperone; oncogene stabiliser; elevated across multiple subtypes,pan-cancer,Neckers 2002,65.859,0.0,True,Her2,True,False,False
+16,MED1,mRNA,0.9993,1.0,—,—,—,26.789,0.0,True,Her2,False,False,False
+17,EP300,mRNA,0.9992,1.0,—,—,—,6.544,0.1028,False,LumB,False,True,False
+18,RPS6,mRNA,0.9992,1.0,—,—,—,29.998,0.0,True,Basal,True,False,False
+19,UBC,mRNA,0.9991,1.0,Ubiquitin; network hub gene — connectivity artifact likely,N/A (hub),Hausser & Jucker 2010,12.905,0.0065,True,Her2,True,False,False
+20,RPS3,mRNA,0.9991,1.0,—,—,—,28.91,0.0,True,Basal,True,False,False

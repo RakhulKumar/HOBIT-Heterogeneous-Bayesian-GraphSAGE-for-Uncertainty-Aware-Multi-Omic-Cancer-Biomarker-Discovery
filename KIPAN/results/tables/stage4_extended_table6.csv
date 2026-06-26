@@ -1,0 +1,21 @@
+Rank,Biomarker,Omic_Type,Importance_Score,GMM_Confidence,General_Cancer_Role,RCC_Subtype_Role,Key_Reference,KW_stat,KW_FDR,Subtype_Specific,Dominant_Subtype,Is_Hub_Gene,In_CGC,In_KIRC_Sig,In_KIRP_Sig,In_KICH_Sig
+1,TP53,methylation,1.0,1.0,Guardian of genome; ~30% KICH; rare in KIRC/KIRP,KICH,Teng et al. 2018,,,,—,,✓,,,✓
+2,RPS27A,methylation,1.0,1.0,—,—,—,,,,—,⚠,,,,
+3,EGFR,methylation,0.9999,1.0,EGF receptor; overexpressed in KICH; erlotinib studied,KICH,Choueiri et al. 2008,,,,—,,✓,,,✓
+4,CTNNB1,methylation,0.9999,1.0,β-catenin; Wnt pathway; activated in some KIRP,KIRP,Linehan & Ricketts 2013,,,,—,,,,,
+5,UBA52,methylation,0.9998,1.0,—,—,—,,,,—,⚠,,,,
+6,AKT1,methylation,0.9998,1.0,PI3K/AKT kinase; survival signalling; pan-RCC,pan-RCC,Henske & El-Hashemite 2012,,,,—,,✓,,,
+7,SRC,methylation,0.9997,1.0,—,—,—,,,,—,,,,,
+8,ACTB,methylation,0.9997,1.0,Actin; housekeeping — network connectivity artifact,N/A (hub),,,,,—,⚠,,,,
+9,TNF,methylation,0.9996,1.0,—,—,—,,,,—,,,,,
+10,FAU,methylation,0.9996,1.0,—,—,—,,,,—,,,,,
+11,RPS18,methylation,0.9995,1.0,—,—,—,,,,—,⚠,,,,
+12,IL6,methylation,0.9995,1.0,—,—,—,,,,—,,,,,
+13,RPS11,methylation,0.9994,1.0,—,—,—,,,,—,⚠,,,,
+14,RPS9,methylation,0.9994,1.0,—,—,—,,,,—,⚠,,,,
+15,HSP90AA1,methylation,0.9993,1.0,—,—,—,,,,—,⚠,,,,
+16,MED1,methylation,0.9993,1.0,—,—,—,,,,—,,,,,
+17,EP300,methylation,0.9992,1.0,—,—,—,,,,—,,,,,
+18,RPS6,methylation,0.9992,1.0,—,—,—,,,,—,⚠,,,,
+19,UBC,methylation,0.9991,1.0,Ubiquitin; network hub gene,N/A (hub),,,,,—,⚠,,,,
+20,RPS3,methylation,0.9991,1.0,—,—,—,,,,—,⚠,,,,

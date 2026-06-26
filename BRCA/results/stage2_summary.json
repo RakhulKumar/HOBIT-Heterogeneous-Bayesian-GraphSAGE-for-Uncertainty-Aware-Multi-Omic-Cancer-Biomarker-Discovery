@@ -1,0 +1,25 @@
+{
+  "link_prediction": {
+    "test_auc": 0.9942943562209355,
+    "test_ap": 0.993204313654649,
+    "best_val_auc": 0.9940615112546913
+  },
+  "edges_added": 119628,
+  "network_density_increase_pct": 14.46,
+  "gmm_k": 4,
+  "gmm_validation": {
+    "cgc_in_data": 47,
+    "cgc_recovered": 17,
+    "cgc_recovery_rate": 0.3617,
+    "pam50_in_data": 47,
+    "pam50_recovered": 5,
+    "pam50_rate": 0.1064
+  },
+  "label_counts": {
+    "Low": 32014,
+    "Medium-Low": 6809,
+    "Medium-High": 1992,
+    "High": 269
+  },
+  "n_high_importance": 269
+}

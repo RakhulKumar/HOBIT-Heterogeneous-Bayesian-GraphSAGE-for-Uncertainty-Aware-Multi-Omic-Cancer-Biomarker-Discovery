@@ -1,0 +1,69 @@
+{
+  "run_timestamp": "2026-06-01T19:45:57.051921",
+  "dataset": "BRCA",
+  "n_seeds": 5,
+  "stages": {
+    "stage1": {
+      "status": "OK",
+      "elapsed_s": 123.63
+    },
+    "stage2": {
+      "status": "OK",
+      "elapsed_s": 213.99
+    },
+    "stage3": {
+      "status": "OK",
+      "elapsed_s": 239.16
+    },
+    "stage4": {
+      "status": "OK",
+      "elapsed_s": 1.7
+    }
+  },
+  "graph": {
+    "total_nodes": 41084,
+    "total_edges": 827154,
+    "num_samples": 430,
+    "avg_degree": 21.4022459118195,
+    "isolated_nodes": 2436,
+    "pam50_distribution": {
+      "LumA": 229,
+      "LumB": 100,
+      "Basal": 71,
+      "Her2": 30
+    }
+  },
+  "link_prediction": {
+    "test_AUC": 0.9942943562209355,
+    "test_AP": 0.993204313654649,
+    "edges_added": 119628,
+    "density_increase": 14.46,
+    "gmm_k": 4,
+    "cgc_recovery_rate": 0.3617,
+    "pam50_recovery_rate": 0.1064,
+    "n_high_importance": 269
+  },
+  "classification": {
+    "accuracy_mean": 0.8984615384615384,
+    "accuracy_std": 0.03313947573621234,
+    "balanced_acc_mean": 0.9173593073593075,
+    "F1_macro_mean": 0.9052265556751713,
+    "F1_macro_std": 0.03664636822433422,
+    "AUC_macro_mean": 0.9772916432080366,
+    "AUC_macro_std": 0.012041330332454026,
+    "ECE_mean": 0.08766688053424543,
+    "ECE_std": 0.012267914420181925,
+    "MCE_mean": 0.49762589534123747,
+    "MI_mean": 0.021330340206623076,
+    "spearman_rho_mean": 0.32443177778582044,
+    "ot_alignment_used": true,
+    "mc_samples": 50
+  },
+  "biomarker_validation": {
+    "n_high_importance": 269,
+    "n_ora_significant_fdr5": 13,
+    "n_subtype_specific_fdr5": 166,
+    "CGC_recovery_rate": 0.3617,
+    "n_hub_genes_high_importance": 16
+  }
+}
